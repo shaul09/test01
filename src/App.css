@@ -1,0 +1,48 @@
+#root{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.app{
+display: flex;
+height: 100dvh;
+}
+
+
+.sidebar {
+background-color: rgb(122, 117, 128);
+width: 250px;
+margin: 0px;
+padding: 10px;
+display: flex;
+justify-content: center;
+}
+
+.sidebar form > * {
+display: block;
+margin: 10px;
+}
+
+.books{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.book{
+  box-sizing: border-box;
+  width: 150px;
+  height: 230px;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: -1px -1px 3px inset black,2px 2px 5px inset white;
+  background-color: rgb(189, 216, 244);
+}
+
+body {
+  margin: 0;
+}
